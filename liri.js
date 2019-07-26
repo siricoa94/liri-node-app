@@ -35,14 +35,31 @@ if(search === "spotify-this-song"){
         return console.log('Error occurred: ' + err);
         }
     
-    // console.log(JSON.stringify(data.tracks.items.length, null, 2)); 
+    console.log(JSON.stringify(data.tracks.items, null, 2)); 
     for(var i = 0; i < data.tracks.items.length; i++){
-        // console.log(JSON.stringify(data.tracks.items[0].artists[0].name));
+        console.log();
+        console.log(JSON.stringify(data.tracks.items[i].artists[0].name));
         console.log(JSON.stringify(data.tracks.items[i].name));
-        // console.log(JSON.stringify(data.tracks.items[0].album.name));
-        // console.log(JSON.stringify(data.tracks.items.preview_url));
+        console.log(JSON.stringify(data.tracks.items[0].album.name));
+        console.log(JSON.stringify(data.tracks.items[i].preview_url));
+        console.log();
         }
     
     
     });
 }
+if(search === "movie-this"){
+    var ombd = "https://www.omdbapi.com/?t=" + term + "&plot=full&apikey=trilogy";
+    axios.get(ombd)
+    .then(function (response){
+        console.log(response.data.Title);
+        console.log(response.data.Year); 
+        console.log(response.data.imdbRating);
+        console.log(response.data.Ratings[0].Value); 
+        console.log(response.data.Country); 
+        console.log(response.data.Language); 
+        console.log(response.data.Plot);
+        console.log(response.data.Actors);  
+    });
+     console.log("searching for movie" + ombd);
+ }
