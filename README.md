@@ -21,9 +21,9 @@ Ombd is used to retrieve relevant movie information based off a user's input. Fo
 
 Here will be some basic screenshots displaying how my program functions with comments. Some Images are exclusively the search or result, but some images are both search and result in one. The reason for this is that some of the data stretched past the limits of what I could capture in a screenshot.
 
-<------------------------------------------------------------------------------------------------------------------->
+<br                                                                                                       />
 ![Alt text](/Screenshot(20).png "concert-this Search and Result")
-<------------------------------------------------------------------------------------------------------------------->
+<br                                                                                                       />
 The image above shows the search and result of a "concert-this" search with "Blink 182" as the band.
 
 
