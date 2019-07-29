@@ -21,44 +21,37 @@ Ombd is used to retrieve relevant movie information based off a user's input. Fo
 
 Here will be some basic screenshots displaying how my program functions with comments. Some Images are exclusively the search or result, but some images are both search and result in one. The reason for this is that some of the data stretched past the limits of what I could capture in a screenshot.
 
-<br>
-<br>
+<------------------------------------------------------------------------------------------------------------------->
 ![Alt text](/Screenshot(20).png "concert-this Search and Result")
-<br>
+<------------------------------------------------------------------------------------------------------------------->
 The image above shows the search and result of a "concert-this" search with "Blink 182" as the band.
 
-<br>
-<br>
+
 ![Alt text](/Screenshot(21).png "Sotify-this-song Search")
-<br>
+
 This Image shows the "spotify-this-song search with "Polly" as the song.
 
-<br>
-<br>
+
 ![Alt text](/Screenshot(22).png "Sotify-this-song Search Results")
-<br>
+
 This image displays the information relevant to the search results for "Polly" mentioned above"
 
-<br>
-<br>
+
 ![Alt text](/Screenshot(23).png "movie-this Search")
-<br>
+
 This image displays the "movie-this" search with "Terminator" as the movie.
 
-<br>
-<br>
+
 ![Alt text](/Screenshot(24).png "movie-this Search and Result")
-<br>
+
 This shows both the "movie-this" search and result in one image.
 
-<br>
-<br>
+
 ![Alt text](/Screenshot(25).png "do-what-it-says Search")
-<br>
+
 This image shows the "do-what-it-says" search.
 
-<br>
-<br>
+
 ![Alt text](/Screenshot(26).png "do-what-it-says Results")
-<br>
+
 This image displays the "do-what-it-says" results.
